@@ -91,7 +91,7 @@ with left:
 with right:
     st.subheader("今日決策")
     if not game.finished:
-        st.write(f"**第 {game.day + 1} 天：**請選擇唯一要補貨的商品。")
+        st.write(f" **第 {game.day + 1} 天：** 請選擇唯一要補貨的商品。")
         choice = st.selectbox(
             "要補哪種商品？",
             range(len(game.products)),
