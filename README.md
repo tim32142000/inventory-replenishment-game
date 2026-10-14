@@ -67,7 +67,6 @@ inventory-replenishment-game/
 ├── app.py                     # 介面：玩家操作、表格、排行榜與 CSV
 ├── simulation.py              # 可獨立測試的核心邏輯
 ├── requirements.txt           # 雲端部署依賴
-├── .streamlit/config.toml     # 基本配色
 ├── .gitignore
 ├── tests/test_simulation.py   # 邏輯測試
 └── README.md
