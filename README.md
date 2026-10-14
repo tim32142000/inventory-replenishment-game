@@ -48,7 +48,7 @@
 
 ```bash
 python -m pip install -r requirements.txt
-python -m streamlit run app.py
+python -m streamlit run streamlit_app.py
 ```
 
 Windows PowerShell / Miniforge 環境中也可以用以上單行指令。
@@ -64,7 +64,7 @@ python -m pytest -q
 
 ```text
 inventory-replenishment-game/
-├── app.py                     # 介面：玩家操作、表格、排行榜與 CSV
+├── streamlit_app.py                     # 介面：玩家操作、表格、排行榜與 CSV
 ├── simulation.py              # 可獨立測試的核心邏輯
 ├── requirements.txt           # 雲端部署依賴
 ├── .gitignore
